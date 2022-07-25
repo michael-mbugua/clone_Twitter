@@ -1,0 +1,169 @@
+.layout{
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+}
+.brand{
+    height: 40px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    filter: invert(56%) sepia(84%) saturate(4259%) hue-rotate(184deg) brightness(105%) contrast(88%);
+}
+.left_layout{
+    padding-left: 40px;
+}
+.side_bar{
+    position: fixed;
+    cursor: pointer;
+}
+.sidebar_cont{
+    font-weight: 700;
+}
+.sidebar_cont_item{
+    padding: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+.sidebar_cont_item:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+    color: #1da0f2;
+    border-radius:  20px; ;
+}
+.sidebar_item1{
+    margin-right: 20px;
+    height: 1.7rem;
+}
+.tweet_button{
+    /* padding: 10px 50px; */
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 5vh;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+#active{
+    font-weight: 700;
+    color: #1da0f2;
+}
+.center_layout{
+    width: 100%;
+}
+.twit_image{
+    padding-right: 10px;
+    border-radius: 50%;
+}
+.twit_header{
+    display: flex;
+    
+}
+.twit_header:hover{
+    background-color: rgba(0,0,0,0.03);
+    cursor: pointer;
+}
+#cont1{
+    font-weight: 700;
+    padding-right: 10px;
+}
+#cont2{
+    color: rgb(83, 100, 113);
+}
+.post{
+    padding-top: 10px;
+}
+.twit{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.center_layout{
+    border: 2px solid rgba(0,0,0,0.03) ;
+}
+.imager{
+    border-radius: 20px;
+}
+.post a{
+    text-decoration: none;
+    color: #1da0f2;
+}
+a:hover{
+    text-decoration: underline;
+}
+#vid{
+    border-radius: 20px;
+    background-color:rgb(83, 100, 113);
+}
+.tweets_opt{
+    display: flex;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.icon2{
+    display: flex;
+    padding-right: 30px;
+    filter:rgb(83, 100, 113) ;
+    align-items: inline;
+
+}
+.icon2:hover{
+    color: #1da0f2;
+}
+#tweet_details{
+    padding-left: 15px;
+}
+
+.rightcont{
+    padding-top: 15px;
+    position: fixed;
+    padding-left: 0px;
+}
+#search{
+    border: 1px solid #1da0f2;
+    background-color:rgba(29, 161, 242, 0.1);
+    padding-top: 15px;
+    margin-right: 10px;
+    padding-left: 50px;
+    margin-left: 40px;
+    padding-bottom: 15px;
+    border-radius: 5vh;
+    font-size: 20px;
+}
+#eight{
+    font-family: 'arial';
+    
+}
+.right_cont i{
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 15px;
+    color: #1da0f2;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.right_layout{
+    font-family: "Arial";
+}
+.right_cont{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.center_head{
+    
+    padding-top: 20px;
+    padding-left: 37%;
+}
+.trends{
+    background-color: rgba(0,0,0,0.03);
+    border-radius: 2vh;
+    padding-left: 40px;
+}
+.kenya_trends{
+    font-size: small;
+    color: rgb(83, 100, 113);
+}
